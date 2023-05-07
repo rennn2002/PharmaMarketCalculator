@@ -10,7 +10,7 @@ No requirements needed for this project
 ### Usage
 clone this repo and go to PharmaMarketCalculator
 ```
-git clone 
+git clone https://github.com/rennn2002/PharmaMarketCalculator.git
 ```
 
 ```
