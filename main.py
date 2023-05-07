@@ -61,9 +61,9 @@ topical_external_sales = search_and_calculate_sales(topical_external_file_path, 
 total_external_sales = internal_external_sales + injection_external_sales + topical_external_sales
 
 print("院内処方：")
-internal_internal_sales = search_and_calculate_sales(internal_external_file_path, drug_name)
-injection_internal_sales = search_and_calculate_sales(internal_external_file_path, drug_name)
-topical_internal_sales = search_and_calculate_sales(topical_external_file_path, drug_name)
+internal_internal_sales = search_and_calculate_sales(internal_internal_file_path, drug_name)
+injection_internal_sales = search_and_calculate_sales(internal_internal_file_path, drug_name)
+topical_internal_sales = search_and_calculate_sales(topical_internal_file_path, drug_name)
 total_internal_sales = internal_internal_sales + injection_internal_sales + topical_internal_sales
 
 print("入院処方：")
