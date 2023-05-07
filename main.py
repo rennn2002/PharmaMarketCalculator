@@ -62,7 +62,7 @@ total_external_sales = internal_external_sales + injection_external_sales + topi
 
 print("院内処方：")
 internal_internal_sales = search_and_calculate_sales(internal_internal_file_path, drug_name)
-injection_internal_sales = search_and_calculate_sales(internal_internal_file_path, drug_name)
+injection_internal_sales = search_and_calculate_sales(injection_internal_file_path, drug_name)
 topical_internal_sales = search_and_calculate_sales(topical_internal_file_path, drug_name)
 total_internal_sales = internal_internal_sales + injection_internal_sales + topical_internal_sales
 
